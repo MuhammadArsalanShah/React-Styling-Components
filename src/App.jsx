@@ -73,3 +73,39 @@ function App() {
 export default App; 
 */
 
+
+
+/***** Coding Exercise 18 *****/
+/*
+import React from 'react';
+
+function App() {
+    const[customClass, setCustomClass] = React.useState()
+    
+    
+    function handleChange(userResponse) {
+        if (userResponse === 'yes') {
+            setCustomClass('highlight-green');
+        }
+        if (userResponse === 'no') {
+            setCustomClass('highlight-red');
+        }
+    }
+    
+    return (
+    <div id="app">
+      <h1 className={customClass}>CSS is great!</h1>
+      <menu>
+        <li>
+          <button onClick={() => handleChange('yes')}>Yes</button>
+        </li>
+        <li>
+          <button onClick={() => handleChange('no')}>No</button>
+        </li>
+      </menu>
+    </div>
+  );
+}
+
+export default App; 
+*/
