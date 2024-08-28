@@ -25,10 +25,14 @@ header h1 {
   margin: 0;
 }
 
-header p {
+.para {
   text-align: center;
   color: #a39191;
   margin: 0;
+}
+
+#some-id {
+  color: red ;
 }
 
 @media (min-width: 768px) {
