@@ -25,7 +25,7 @@ export default function AuthInputs() {
 
   return (
     <div id="auth-inputs" className='w-full max-w-sm p-8 mx-auto rounded shadow-md bg-gradient-to-br from-stone-700 to-stone-800'>
-      <div style={} className='flex flex-col gap-2 mb-6'> 
+      <div className='flex flex-col gap-2 mb-6'> 
         <Input
           label="Email"
           invalid={emailNotValid}
