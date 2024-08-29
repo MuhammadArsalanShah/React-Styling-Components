@@ -109,3 +109,31 @@ function App() {
 
 export default App; 
 */
+
+
+
+/***** Coding Exercise 19 *****/
+/*
+import React from 'react';
+
+// don't change the Component name "App"
+export default function App() {
+    const [customColor, setCustomColor] = React.useState('white')
+    
+    function handleChange () {
+        setCustomColor((prevColor) => {
+            if(prevColor === 'white'){
+                return 'red'
+            } else {
+                return 'white'
+            }
+        })
+    }
+    return (
+        <div>
+            <p style={{color: customColor}}>Style me!</p>
+            <button onClick={handleChange}>Toggle style</button>
+        </div>
+    );
+}
+*/
